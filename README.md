@@ -1,10 +1,10 @@
 # Accurate Dynamic SLAM using CRF-basedLong-term Consistency
 **Authors:** [Zheng-Jun Du], [Shi-Sheng Huang], [Tai-Jiang Mu], [Qunhe Zhao], [Ralph R. Martin] and [Kun Xu]
 
-Our implementation is based on the framework of [ORBSLAM2](https://github.com/raulmur/ORB_SLAM2), any question about the code please contact me via my email:
-duzj19@mails.tsinghua.edu.cn.
+Our implementation is based on the framework of [ORBSLAM2](https://github.com/raulmur/ORB_SLAM2), any question about the code please contact me via my email: duzj19@mails.tsinghua.edu.cn.
 
 ## Build project
+Operating system: Ubuntu 16.04 LTS
 Compiling is similar to ORBSLAM2, please refer to https://github.com/raulmur/ORB_SLAM2#3-building-orb-slam2-library-and-examples for more detail.
 All dependency libraries are included in the Thirdparty directory.
 
