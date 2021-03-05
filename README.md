@@ -1,5 +1,4 @@
 # Accurate Dynamic SLAM using CRF-basedLong-term Consistency
-
 This is the source code of the paper: [Accurate Dynamic SLAM using CRF-based Long-term Consistency](https://cg.cs.tsinghua.edu.cn/people/~shisheng/Papers/OC-CRF/paper6.pdf)  
 **Authors:** Zheng-Jun Du, Shi-Sheng Huang, Tai-Jiang Mu, Qunhe Zhao, Ralph R. Martin and Kun Xu
 
@@ -13,12 +12,14 @@ All dependency libraries are included in the Thirdparty directory.
 We test our algorithm on two dynamic dataset: [TUM RGB-D dynamic dataset](https://vision.in.tum.de/data/datasets) and [BONN RGB-D dynamic dataset](http://www.ipb.uni-bonn.de/data/rgbd-dynamic-dataset/).
 
 ## Usage
-./rgbd_tum path_to_sequence path_to_association path_to_settings
-more detail see the rgbd_tum.cc
+>./rgbd_tum path_to_sequence path_to_association path_to_settings  
+
+more detail see the file: rgbd_tum.cc
 
 ## Evaluate
-The tools of ate/rpe evaluation locate in /Examples/RGB-D
-usage: python evaluate_ate/evaluate_rpe.py groundtruth.txt trajectory.txt --verbose
+The tools of ate/rpe evaluation locate in /Examples/RGB-D  
+usage: 
+> python evaluate_ate/evaluate_rpe.py groundtruth.txt trajectory.txt --verbose
 
 ## Notes
 If the frame viewers are frozen, close it, it will be reactived.
