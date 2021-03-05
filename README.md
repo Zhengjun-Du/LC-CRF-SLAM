@@ -1,6 +1,6 @@
 # Accurate Dynamic SLAM using CRF-basedLong-term Consistency
 
-This is the source code of the paper: Accurate Dynamic SLAM using CRF-based Long-term Consistency. IEEE Transactions on Visualization and Computer Graphics, 2020, PP(99).
+This is the source code of the paper: Accurate Dynamic SLAM using CRF-based Long-term Consistency. IEEE Transactions on Visualization and Computer Graphics, 2020, PP(99).  
 **Authors:** Zheng-Jun Du, Shi-Sheng Huang, Tai-Jiang Mu, Qunhe Zhao, Ralph R. Martin and Kun Xu
 
 Our implementation is based on the framework of [ORBSLAM2](https://github.com/raulmur/ORB_SLAM2), any question about the code please contact me via my email: duzj19@mails.tsinghua.edu.cn.
