@@ -20,7 +20,7 @@ more detail see the file: rgbd_tum.cc
 
 ## Evaluate
 The tools of ate/rpe evaluation locate in /Examples/RGB-D  
-usage: 
+usage: (python 2.7)
 > python evaluate_ate/evaluate_rpe.py groundtruth.txt trajectory.txt --verbose
 
 ## Notes
