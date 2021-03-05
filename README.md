@@ -1,4 +1,4 @@
-[LC-CRF-SLAM](https://github.com/Zhengjun-Du/LC-CRF-SLAM/blob/master/LC-CRF-SALM.png)
+![LC-CRF-SLAM](https://github.com/Zhengjun-Du/LC-CRF-SLAM/blob/master/LC-CRF-SALM.png)
 
 # Accurate Dynamic SLAM using CRF-based Long-term Consistency
 This is the source code of the paper: [Accurate Dynamic SLAM using CRF-based Long-term Consistency](https://cg.cs.tsinghua.edu.cn/people/~shisheng/Papers/OC-CRF/lccrf_tvcg.pdf)  
