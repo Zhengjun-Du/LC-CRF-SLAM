@@ -1,0 +1,110 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5447f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5447f.dir/build.make CMakeFiles/cmTC_5447f.dir/build
+make[1]: Entering directory '/home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5447f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_5447f.dir/CheckSymbolExists.c.o   -c /home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5447f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5447f.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_5447f.dir/CheckSymbolExists.c.o  -o cmTC_5447f -rdynamic 
+CMakeFiles/cmTC_5447f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5447f.dir/build.make:97: recipe for target 'cmTC_5447f' failed
+make[1]: *** [cmTC_5447f] Error 1
+make[1]: Leaving directory '/home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5447f/fast' failed
+make: *** [cmTC_5447f/fast] Error 2
+
+File /home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69690/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69690.dir/build.make CMakeFiles/cmTC_69690.dir/build
+make[1]: Entering directory '/home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69690.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_69690.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69690
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69690.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_69690.dir/CheckFunctionExists.c.o  -o cmTC_69690 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_69690.dir/build.make:97: recipe for target 'cmTC_69690' failed
+make[1]: *** [cmTC_69690] Error 1
+make[1]: Leaving directory '/home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_69690/fast' failed
+make: *** [cmTC_69690/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_788ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_788ae.dir/build.make CMakeFiles/cmTC_788ae.dir/build
+make[1]: Entering directory '/home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_788ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_788ae.dir/CheckSymbolExists.c.o   -c /home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_788ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_788ae.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_788ae.dir/CheckSymbolExists.c.o  -o cmTC_788ae -rdynamic 
+CMakeFiles/cmTC_788ae.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_788ae.dir/build.make:97: recipe for target 'cmTC_788ae' failed
+make[1]: *** [cmTC_788ae] Error 1
+make[1]: Leaving directory '/home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_788ae/fast' failed
+make: *** [cmTC_788ae/fast] Error 2
+
+File /home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87692/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87692.dir/build.make CMakeFiles/cmTC_87692.dir/build
+make[1]: Entering directory '/home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87692.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_87692.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_87692
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87692.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_87692.dir/CheckFunctionExists.c.o  -o cmTC_87692 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_87692.dir/build.make:97: recipe for target 'cmTC_87692' failed
+make[1]: *** [cmTC_87692] Error 1
+make[1]: Leaving directory '/home/dzj/projects/ORB-SLAM/Thirdparty/DBoW2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_87692/fast' failed
+make: *** [cmTC_87692/fast] Error 2
+
+
